@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: SFProDisplay;
+    src: url("./assets/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+@font-face{
+    font-family: SFProText;
+    src: url("./assets/SF-Pro-Text-Regular.otf") format("opentype");
+}
+body {
+    font-family: SFProText;
+}
+#navbar ul{
+    color: #D7D7D7;
+    background-color: #000000cc;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 44px;
+    list-style: none;
+    
+}
+#navbar li:hover{
+    color: #FFFFFF;
+}
+
+#ribbon p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #E34140;
+    height: 44px;
+}
+#ribbon a{
+    text-decoration: none;
+}
+#ribbon a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E34140;
+    
+}
+#ribbon a:hover{
+    text-decoration: underline;
+    color: #FFFFFF;    
+}
+#appleholiday{
+    background-color: #EAF2FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding-top: 30px;
+}
+#appleholiday h2{
+    color: #1D1D1F;
+    font-size: 55px;
+}
+#shopgifts{
+    background-color: #EAF2FC;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    color: #0066CC;
+    font-size: 22px;
+    text-decoration: none;
+    padding-bottom: 39px;
+}
+
+#shopgifts a{
+    color: #0066CC;
+    text-decoration: none;
+    font-family: SFProDisplay;
+}
+#shopgifts a:visited{
+    color: #0066CC;
+    text-decoration: none;
+}
+#shopgifts a:hover{
+    color: #0066CC;
+    text-decoration: underline;
+}
+#spinners{
+    background-color: #EAF2FC;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    padding-bottom: 68px;
+    margin-bottom: 11px;
+}
+#iphone13pro{
+    color: #1D1D1F;
+    background-image: url(./img/hero_iphone_13pro__dhnsegysa42u_largetall.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 60vh;
+    padding-top: 53px;
+    padding-bottom: 60px;
+    margin-bottom: 11px;
+    text-align: center;
+    
+}
+#iphone13pro h2{
+    font-size: 55px;
+}
+#iphone13pro p{
+    font-size: 28px;
+}
+#iphone13prolinks{
+    font-family: SFProDisplay;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#iphone13prolinks p{
+    font-size: 22px;
+    color: #0066CC;
+    text-decoration: none;
+}
+#iphone13prolinks a{
+    font-size: 22px;
+    color: #0066CC;
+    text-decoration: none;
+}
+#iphone13prolinks a:hover{
+    color: #0066CC;
+    text-decoration: underline;
+}
+#iphone13prolinks a:visited{
+    color: #0066CC;
+    text-decoration: none;
+}
+#iphone13{
+    color: #F5F5F7;
+    background-image: url(./img/hero_iphone_13__f194u1rdooeq_largetall.jpg);
+    background-position: center;
+    background-size: 150%;
+    height: 64vh;
+    padding-top: 53px;
+    text-align: center;
+    
+}
+#iphone13 h2{
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+#iphone13 p{
+    color: #FEC2EB;
+    font-size: 28px;
+}
+#iphone13links{
+    font-family: SFProDisplay;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#iphone13links p{
+    font-size: 22px;
+    color: #0066CC;
+    text-decoration: none;
+}
+#iphone13links a{
+    font-size: 22px;
+    color: #0066CC;
+    text-decoration: none;
+}
+#iphone13links a:hover{
+    color: #0066CC;
+    text-decoration: underline;
+}
+#iphone13links a:visited{
+    color: #0066CC;
+    text-decoration: none;
+}
+
+#grid{
+    margin-top: 11px;
+    margin-left: 11px;
+    margin-right: 11px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 11px;
+
+}
+
+#macbook{
+    background-image: url(./img/tile_macbookpro__cx0ur0qg9biq_large.jpg);
+    background-position: center;
+    height: 580px;
+    text-align: center;
+}
+#macbooklinks{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#watch{
+    background-image: url(./img/tile_watch__e9n11b6m6yq2_large.jpg);
+    background-position: center;
+    text-align: center;
+}
+#watchlinks{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#homepod{
+    background-image: url(./img/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+    background-position: center;
+    text-align: center;
+}
+#homepodlinks{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#arcade{
+    background-image: url(./img/tile_lego_castaways__d2v36ez91ewm_large.jpg);
+    background-position: center;
+    text-align: center;
+}
+#arcadelinks{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#card{
+    background-image: url(./img/tile__cauwwcyyn9hy_large.jpg);
+    background-position: center;
+    text-align: center;
+}
+#cardlinks{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#tv{
+    background-image: url(./img/promo_dickinson__c9ea4l2f5rki_large.jpg);
+    background-position: center;
+    text-align: center;
+}
+#tvlinks{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+#legal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 11px;
+    background: #F5F5F7;
+    color: #808080;
+}
+#legal p{
+    width: 1100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#menus{
+    border-top: solid 1px #A6A6A9;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    line-height: 25px;
+    background: #F5F5F7;
+
+}
+#menus ul{
+    list-style: none;
+}
+#menus a{
+    text-decoration: none;
+    font-size: 12px;
+}
+#menus a:hover{
+    text-decoration: underline;
+}
+#menus a:visited{
+    color: #1D1D1F;
+}
+#account{
+    margin-top: 10px;
+}
